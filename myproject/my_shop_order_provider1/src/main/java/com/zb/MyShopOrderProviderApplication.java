@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 //本地新开发的功能
+//远程修改了代码
 @SpringBootApplication
 @EnableDiscoveryClient
 public class MyShopOrderProviderApplication {
