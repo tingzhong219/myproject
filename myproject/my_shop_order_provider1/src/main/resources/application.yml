@@ -1,0 +1,16 @@
+
+server:
+  port: 8003
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:ok@localhost:7001/eureka
+  instance:
+    instance-id: order-provider8003
+    prefer-ip-address: true
+spring:
+  application:
+    name: order-provider
+info:
+  app.name: order-provider
+  company.name: www.kgc.com

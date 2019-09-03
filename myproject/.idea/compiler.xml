@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="my_shop_common" />
+        <module name="my_shop_gateway" />
+        <module name="my_shop_hystrix_dashboard" />
+        <module name="my_shop_order_provider" />
+        <module name="my_shop_order_provider1" />
+        <module name="my_shop_sleuth" />
+        <module name="my_shop_user_consumer" />
+        <module name="myproject" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="my_shop_common" target="1.5" />
+      <module name="my_shop_gateway" target="1.8" />
+      <module name="my_shop_hystrix_dashboard" target="1.8" />
+      <module name="my_shop_order_provider" target="1.8" />
+      <module name="my_shop_order_provider1" target="1.8" />
+      <module name="my_shop_sleuth" target="1.8" />
+      <module name="my_shop_user_consumer" target="1.8" />
+      <module name="myproject" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="my_shop_sleuth" options="" />
+    </option>
+  </component>
+</project>

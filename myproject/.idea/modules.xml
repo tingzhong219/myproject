@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/my_shop_common/my_shop_common.iml" filepath="$PROJECT_DIR$/my_shop_common/my_shop_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_shop_gateway/my_shop_gateway.iml" filepath="$PROJECT_DIR$/my_shop_gateway/my_shop_gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_shop_hystrix_dashboard/my_shop_hystrix_dashboard.iml" filepath="$PROJECT_DIR$/my_shop_hystrix_dashboard/my_shop_hystrix_dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_shop_order_provider/my_shop_order_provider.iml" filepath="$PROJECT_DIR$/my_shop_order_provider/my_shop_order_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_shop_order_provider1/my_shop_order_provider1.iml" filepath="$PROJECT_DIR$/my_shop_order_provider1/my_shop_order_provider1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_shop_sleuth/my_shop_sleuth.iml" filepath="$PROJECT_DIR$/my_shop_sleuth/my_shop_sleuth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_shop_user_consumer/my_shop_user_consumer.iml" filepath="$PROJECT_DIR$/my_shop_user_consumer/my_shop_user_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myproject.iml" filepath="$PROJECT_DIR$/myproject.iml" />
+    </modules>
+  </component>
+</project>

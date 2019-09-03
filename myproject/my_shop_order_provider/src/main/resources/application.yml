@@ -1,0 +1,24 @@
+
+server:
+  port: 8001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:ok@localhost:7001/eureka
+  instance:
+    instance-id: order-provider8001
+    prefer-ip-address: true
+spring:
+  application:
+    name: order-provider
+  zipkin:
+    base-url: http://localhost:9003
+  sleuth:
+    sampler:
+      percentage: 1.0
+info:
+  app.name: order-provider
+  company.name: www.kgc.com
+
+logging:
+  level: info
